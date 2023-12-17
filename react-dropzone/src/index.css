@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply h-full scroll-smooth antialiased;
+  }
+
+  body {
+    @apply flex h-full flex-col text-neutral-500 bg-black;
+  }
+
+  main {
+    @apply grow;
+  }
+}
+
+@layer components {
+  .section {
+    @apply py-16;
+  }
+
+  .title {
+    @apply text-primary-400 font-serif tracking-wide;
+  }
+}
