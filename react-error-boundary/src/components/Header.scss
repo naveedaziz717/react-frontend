@@ -1,0 +1,26 @@
+header {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 1.5rem 1rem;
+  letter-spacing: 1px;
+
+  .main-header {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .main-title {
+      font-size: 24px;
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header .main-header .main-title {
+    font-size: 3rem;
+  }
+}
